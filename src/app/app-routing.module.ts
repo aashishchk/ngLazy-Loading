@@ -3,7 +3,7 @@ import { AboutComponent } from './about/about.component';
 import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
-  // { path: 'about', component: AboutComponent },
+  { path: 'about', component: AboutComponent },
   { path: 'user', loadChildren: './user/user.module#UserModule' }
 ];
 
